@@ -1,0 +1,198 @@
+.showcase {
+	width: 100%;
+	height: 80vh;
+	overflow: hidden;
+}
+
+.fix {
+	z-index: -1;
+	width: 400%;
+	height: 80vh;
+	display: flex;
+	position: fixed;
+	animation-name: tx;
+	animation-duration: 12s;
+	animation-iteration-count: infinite;
+}
+
+.fox {
+	overflow: hidden;
+	width: 100%;
+	height: 30vh;
+	margin: 5vh 0;
+}
+
+.fax {
+	display: flex;
+	flex-direction: column;
+	animation-name: fx;
+	animation-duration: 12s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes tx {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+	12.5%{
+		transform: translate3d(0, 0, 0);
+	}
+	25% {
+		transform: translate3d(-25%, 0, 0);
+	}
+	37.5%{
+		transform: translate3d(-25%, 0, 0);
+	}
+	50% {
+		transform: translate3d(-50%, 0, 0);
+	}
+	62.5% {
+		transform: translate3d(-50%, 0, 0);
+	}
+	75% {
+		transform: translate3d(-75%, 0, 0);
+	}
+	87.5% {
+		transform: translate3d(-75%, 0, 0);
+	}
+}
+
+@keyframes fx {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+	12.5%{
+		transform: translate3d(0, 0, 0);
+	}
+	25% {
+		transform: translate3d(0, -25%, 0);
+	}
+	37.5%{
+		transform: translate3d(0, -25%, 0);
+	}
+	50% {
+		transform: translate3d(0, -50%, 0);
+	}
+	62.5% {
+		transform: translate3d(0, -50%, 0);
+	}
+	75% {
+		transform: translate3d(0, -75%, 0);
+	}
+	87.5% {
+		transform: translate3d(0, -75%, 0);
+	}
+}
+
+.fix div {
+	display: inline-block;
+	flex: 1;
+	height: 100%;
+}
+
+.fix div:nth-child(1){
+	background: url('../Images/s1.jpg') no-repeat center/cover;
+}
+
+.fix div:nth-child(2){
+	background: url('../Images/p16.jpg') no-repeat center/cover;
+}
+
+.fix div:nth-child(3){
+	background: url('../Images/s3.gif') no-repeat center/cover;
+}
+
+.fix div:nth-child(4){
+	background: url('../Images/p19.gif') no-repeat center/cover;
+}
+
+.fax div {
+	display: block;
+	height: 100%;
+}
+
+.showcase .topic {
+	width: 100%;
+	color: white;
+	padding-top: 15vh;
+}
+
+#briefing {
+	background-color: white;
+	color: black;
+	padding: 4em 6% 0 6%;
+}
+
+.heading {
+	margin: 0 auto;
+	width: 30%;
+	text-align: center;
+	font-size: 2rem;
+	position: relative;
+  	line-height: 1.5em;
+  	padding-bottom: 4rem;
+}
+
+#briefing p{
+	text-align: center;
+	padding: 0 25%;
+}
+
+#briefing .topic {
+	padding-bottom: 2vh;
+}
+
+.client-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: 10vh auto;
+	width: 60vw;
+}
+
+.client-grid div {
+	overflow: hidden;
+	height: 20vw;
+}
+
+.client-grid img {
+	transition-duration: 1s;
+	transition: 0.5;
+}
+
+.client-grid img:hover {
+	width: 110%;
+}
+
+#Hire-container {
+	background-color: white;
+	padding: 4em 5%;
+}
+
+#Hire-container h2{
+	text-align: center;
+	font-size: 3rem;
+	line-height: 1em;
+	padding: 0 0 4rem 0;
+	width: 60%;
+	margin: 0 auto;
+}
+
+#Hire-container p {
+	padding: 0 25% 4rem 25%;
+	text-align: center;
+}
+
+#link-button {
+	width: 5rem;
+	margin: 0 auto;
+	padding: 0.5rem;
+	border: 0.1em gray solid;
+	border-radius: 2rem;
+	text-align: center;
+}
+
+#link-button a {
+	text-decoration: none;
+	font-weight: bold;
+	color: gray;
+}

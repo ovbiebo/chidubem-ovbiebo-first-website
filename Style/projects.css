@@ -1,0 +1,22 @@
+#projects-nav {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+#projects-nav a{
+	color: #000000;
+}
+
+.portfolio-container {
+	padding: 15vh 0 30vh 0;
+}
+
+.portfolio-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.portfolio-grid div {
+	overflow: hidden;
+	height: 19vw;
+}

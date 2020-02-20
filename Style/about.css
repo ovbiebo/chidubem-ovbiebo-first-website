@@ -1,0 +1,66 @@
+#about-nav {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+#about-nav a{
+	color: #000000;
+}
+
+.me-block {
+	padding-top: 2em;
+	width: 100%;
+	background-color: #BF8F60;
+}
+
+.me-block #me-text {
+	padding: 4em 0;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#me-text p {
+	color: black;
+}
+
+#me-text ol {
+	width: 30vw;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#me-text li {
+	list-style-type: none;
+}
+
+#dp {
+	height: 10em;
+	width: 10em;
+	border-radius: 8em;
+	margin: 0 auto;
+	background: url('../Images/me.jpg') no-repeat center/cover;
+}
+
+.value-block {
+	width: 80vw;
+	padding: 4em 0;
+	margin: 0 auto;
+}
+
+.grid-ol {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 4em;
+}
+
+.grid-ol li{
+	list-style-position: inside;
+}
+
+.container {
+	padding-bottom: 3em;
+}
+
+h3 {
+	padding-bottom: 1.5rem;
+}

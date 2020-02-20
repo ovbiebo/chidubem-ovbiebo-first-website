@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: 'Questrial';
+	src: url('../Fonts/Questrial-Regular.ttf') format('truetype');
+}
+
+body {
+	font-family: 'Questrial', sans-serif;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+h1 {
+	line-height: 1em;
+	font-size: 5rem;
+}
+
+p {
+	color: gray;
+}
+
+img {
+	width: 100%;
+}
+
+nav {
+	font-size: 20px;
+	width: 96%;
+	padding: 2% 2%;
+	color: #FFF;;
+}
+
+footer {
+	font-size: 14px;
+	background-color: black;
+	color: white;
+	padding: 10vh;
+	text-align: center;
+}
+
+footer li {
+	list-style: none;
+}
+
+footer a {
+	color: gray;
+	text-decoration: none;
+}
+
+footer a:hover {
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+footer a:active {
+	font-size: 16px;
+}
+
+footer a:focus {
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer a:visited {
+	color: white;
+	font-weight: bold;
+}
+
+section {
+	font-size: 20px;
+}
+
+nav ul {
+	display: inline-block;
+	padding-top: 20px;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	color: #FFF;
+	padding: 10px;
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+a:hover {
+	font-size: 22px;
+}
+
+#logo {
+	display: inline-block;
+	margin: 10px;
+}
+
+#hiring {
+	font-weight: bold;
+}
+
+#sub-nav {
+	padding: 0 0 4% 0;
+	width: 50%;
+	margin: 0 auto;
+}
+
+#sub-nav ul{
+	display: flex;
+}
+
+#sub-nav li{
+	flex: 1;
+	text-align: center;
+	list-style-type: none;
+}
+
+#sub-nav a {
+	color: #000000;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.topic {
+	height: 4em;
+	padding-bottom: 4em;
+	text-align: center;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.topic h1 {
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.topic h2 {
+	font-size: 3rem;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	line-height: 1em;
+}
+
+.container {
+	padding: 15vh 0 30vh 0;
+}
+
+#divider {
+	height: 4em;
+	width: 25vw;
+	margin: 0 auto;
+	border-bottom: 0.05em gray solid;
+}
+
+.foot-content {
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	padding: 0 10%;
+	padding-bottom: 5%;
+	width: 40vw;
+	margin: auto;
+}
+
+.foot-content div{
+	padding: 0 1%;
+	flex: 1;
+}
+
+.foot-content h2{
+	padding-bottom: 6%;
+}
+
+.foot-content p{
+	color: gray;
+}
